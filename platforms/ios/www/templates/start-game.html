@@ -1,0 +1,17 @@
+<ion-nav-bar class="bar-positive nav-title-slide-ios7">
+</ion-nav-bar>
+<ion-view title="Campus Quest">
+    <ion-content class="has-header" padding="true">
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" placeholder="Game Code" ng-model="gameCode" ng-filter="uppercase" />
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="Team Name" ng-model="teamName" />
+            </label>
+            <button class="button button-block button-dark" ng-click="startGame(gameCode,teamName)">
+                Start Game
+            </button>
+        </div>
+    </ion-content>
+</ion-view>
